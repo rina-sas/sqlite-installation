@@ -1,1 +1,1 @@
-# sqlite-installation
+# writing sample for sqlite-installation
