@@ -20,9 +20,9 @@ $ make install
 
 **Note：** 
 
-1. After the command $ make is executed, choose to install the command line tools if it shows the make command requires it.
+1. After the command `$ make` is executed, choose to install the command line tools if it shows the make command requires it.
 
-2. If, after the command $ make install is executed, a permission denied error occurs, run the following command. Otherwise skip ahead to step three:
+2. If, after the command `$ make install` is executed, a permission denied error occurs, run the following command. Otherwise skip ahead to step three:
 
 ```bash
 $ sudo make install
