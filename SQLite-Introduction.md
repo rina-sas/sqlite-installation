@@ -9,8 +9,14 @@ The sqlite3_prepare_v2() and related interfaces serve as a compiler to convert S
 
 # What are its significant features?
 
-* SQLite is self-contained and comes with zero-configuration, so it is easy to install, setup, and build. It is designed and used as an embedded database and offers a popular option for web browsers to store data locally or on the client-side. It is widely used across different operating systems and does not rely on external dependencies. 
+* SQLite is self-contained and comes with zero-configuration, so it is easy to install, setup, and build. It is designed and used as an embedded database and offers a popular option for web browsers to store data locally or on the client-side. 
 
-* The SQLite library is compact and its size can be less than 600KB depending on the target platform and compiler optimization settings. It performs well in low-memory environments. It accesses the files containing the data directly instead of accessing a server. With optimized use, SQLite can be faster than direct filesystem I/O. 
+* It is widely used across different operating systems and does not rely on external dependencies. 
 
-* SQLite is ACID-compliant and implements most of the standard SQL. It is lightweight compared to others such as MySql and Oracle, and it provides simple and easy-to-use APIs. SQLite uses dynamic types for tables. This means you can store any value in any column, regardless of the data type. It allows one single database connection to manipulate multiple database files all at once.
+* The SQLite library is compact and its size can be less than 600KB depending on the target platform and compiler optimization settings. It performs well in low-memory environments. 
+
+* It accesses the files containing the data directly instead of accessing a server. With optimized use, SQLite can be faster than direct filesystem I/O. 
+
+* SQLite is ACID-compliant and implements most of the standard SQL. It is lightweight compared to others such as MySql and Oracle, and it provides simple and easy-to-use APIs. 
+
+* SQLite uses dynamic types for tables. This means you can store any value in any column, regardless of the data type. It allows one single database connection to manipulate multiple database files all at once.
